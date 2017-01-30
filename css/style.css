@@ -1,0 +1,59 @@
+/* 
+
+Project Name: Hire me I'm a Goat
+Client: a Goat 
+Author: Elena Mastrangelo 
+
+
+*/
+
+body {
+	background: url('../images/goat.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	font-family: 'Lakki Reddy', normal;
+
+}
+
+#container {
+	/*background: #867D5F;
+	background: #751ABF;*/
+	background: rgb(117, 26, 191);
+	background: rgba(117, 26, 191, 0.3); 
+	width: 500px;
+	height:950px;
+	
+	color: #FAE8B3;
+	padding: 15px;
+	border: 5px solid #5FOB46;
+	border-radius: 10px;
+	
+}
+
+h1 {
+	font-size: 60px;
+	font-family: 'Lakki Reddy', normal;
+	margin-bottom: 0;
+	margin-top: 0;
+	color: #DDE38E;
+}
+h2 {
+	/*background: #FAE8B3;*/
+	color: #D5A9BA;
+	
+	padding: 5px;
+	padding-top:15px;
+	border-radius: 5px;
+	
+}
+
+a {
+	color: #8FDBD7;
+	text-decoration: none;
+}
